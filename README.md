@@ -14,6 +14,7 @@
         
 ###2.JAVA:
  //获得显示区域尺寸
+ 
         final DisplayMetrics metrics = new DisplayMetrics();
         getWindowManager().getDefaultDisplay().getMetrics(metrics);
 
