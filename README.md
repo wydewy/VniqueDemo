@@ -1,19 +1,20 @@
 # VniqueDemo
 
 ##usage of ScheduleAdapter:
-###1.XML:
- <GridView
-        android:id="@+id/gridview"
-        android:layout_width="fill_parent"
-        android:layout_height="match_parent"
-        android:background="#DADADA"
-        android:gravity="center"
-        android:horizontalSpacing="1dp"
-        android:numColumns="5"
-        android:verticalSpacing="1dp" />
+
+//1.XML:
+
+    <GridView
+           android:id="@+id/gridview"
+           android:layout_width="fill_parent"
+           android:layout_height="match_parent"
+           android:background="#DADADA"
+           android:gravity="center"
+           android:horizontalSpacing="1dp"
+           android:numColumns="5"
+           android:verticalSpacing="1dp" />
         
-###2.JAVA:
- //获得显示区域尺寸
+ //2.JAVA:
  
         final DisplayMetrics metrics = new DisplayMetrics();
         getWindowManager().getDefaultDisplay().getMetrics(metrics);
