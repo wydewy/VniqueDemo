@@ -87,6 +87,6 @@
 
 
         Log.d("TAG", "item0:" + items.get("星期一"));
-// set adapter
+
         mGridView = (GridView) findViewById(R.id.gridview);
         mGridView.setAdapter(new ScheduleAdapter(this, metrics, items, items.size(), Math.max(item0.size(), item1.size())));
